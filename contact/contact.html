@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 1234 Main Street, City, Country</p>
+            <p><strong>Email:</strong> info@example.com</p>
+            <p><strong>Phone:</strong> +1 234 567 890</p>
+        </div>
+        <form class="contact-form" action="/submit-message" method="post">
+            <h2>Send us a Message</h2>
+            <div class="form-row">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-row">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>

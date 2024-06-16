@@ -1,0 +1,98 @@
+body {
+    font-family: 'jost', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.contact-form h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-row {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    color: #555;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: vertical; /* Allow vertical resize */
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0071a1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #005f87;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 20px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,108 @@
+body {
+    font-family: 'jost', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.payment-form {
+    background: #fff;
+    font-family: jost;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.payment-form:hover {
+    transform: translateY(-10px);
+}
+
+.payment-form h2 {
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    font-size: 26px;
+    color: #333;
+    position: relative;
+}
+
+.payment-form h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #0071a1;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.payment-form .form-row {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.payment-form input {
+    width: 100%;
+    font-family: jost;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.payment-form input:focus {
+    border-color: #0071a1;
+    box-shadow: 0 0 8px rgba(0, 113, 161, 0.2);
+    outline: none;
+}
+
+.payment-form input::placeholder {
+    color: #bbb;
+    transition: color 0.3s ease;
+}
+
+.payment-form input:focus::placeholder {
+    color: #999;
+    font-family: jost;
+}
+
+.payment-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0071a1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: poppins;
+}
+
+.payment-form button:hover {
+    background-color: #005f87;
+    transform: translateY(-2px);
+}
+
+.payment-form button:active {
+    transform: translateY(1px);
+    background-color: #004f71;
+}
