@@ -318,10 +318,13 @@ i {
         justify-content: center;
         align-items: center;
         transition: 0.3s;
+        text-decoration: none;
     }
     .nav-li {
         float: none;
-        margin: 10px 0;
+        margin: 12px 0;
+        text-decoration: none;
+        font-family: jost;
         font-size: 18px;
     }
     .main-heading {
