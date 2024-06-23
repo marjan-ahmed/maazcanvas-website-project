@@ -307,7 +307,7 @@ i {
         width: 100%;
     }
     .nav-ul {
-        position: absolute;
+        position: fixed;
         right: -250px;
         top: 0;
         height: 40%;
