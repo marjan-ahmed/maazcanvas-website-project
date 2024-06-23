@@ -304,6 +304,7 @@ i {
         align-items: center;
         height: auto;
         padding: 10px;
+        width: 100%;
     }
     .nav-ul {
         position: fixed;
@@ -372,6 +373,7 @@ i {
     #price {
     font-family: jost, 'sans-serif';
     margin: 7px;
+    margin-left: 20px;
 }
     .footer-li {
         margin-left: 15px;
