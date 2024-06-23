@@ -66,7 +66,7 @@ ul {
 
 .cancel-icon {
     display: none;
-    font-size: 40px;
+    font-size: 50px;
     cursor: pointer;
     position: absolute;
     top: 10px;
@@ -396,10 +396,51 @@ i {
     margin: 7px;
     margin-left: 20px;
 }
-    .footer-li {
-        margin-left: 15px;
-        font-size: 14px;
-    }
+.container {
+    padding: 10px 0;
+    height: 40vh;
+}
+
+#footer-heading {
+    font-size: 35px;
+    margin-top: -2vh;
+}
+
+.footer-li {
+    font-size: 16px;
+
+}
+
+.footer-li a {
+    font-size: 16px;
+}
+
+.social-media {
+    margin-top: 95px;
+}
+
+.social-media a {
+    font-size: 20px;
+}
+
+#footer-logo {
+    width: 80px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.copyright{
+    padding: 20px;
+    margin-top: 29px;
+}
+
+#cr-para {
+    font-size: 16px;
+    margin-top: -26px;
+    
+}
 }
 
 @media screen and (max-width: 768px) {
