@@ -407,25 +407,25 @@ i {
 }
 
 .footer-li {
-    font-size: 16px;
+    font-size: 12px;
 
 }
 
 .footer-li a {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .social-media {
-    margin-top: 95px;
+    margin-top: 90px;
 }
 
 .social-media a {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #footer-logo {
-    width: 80px;
-    height: 60px;
+    width: 90px;
+    height: 700px;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -437,7 +437,7 @@ i {
 }
 
 #cr-para {
-    font-size: 16px;
+    font-size: 13px;
     margin-top: -26px;
     
 }
