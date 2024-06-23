@@ -10,9 +10,6 @@ body{
     overflow-x: hidden;
 }
 
-.navbar{
-    width: 100%;
-}
 
 .nav-li {
     list-style-type: none;
