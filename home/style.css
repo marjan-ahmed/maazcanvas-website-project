@@ -398,7 +398,7 @@ i {
 }
 .container {
     padding: 10px 0;
-    height: 50vh;
+    height: 47vh;
 }
 
 #footer-heading {
@@ -425,7 +425,7 @@ i {
 
 #footer-logo {
     width: 90px;
-    height: 700px;
+    height: 70px;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -434,11 +434,12 @@ i {
 .copyright{
     padding: 20px;
     margin-top: 29px;
+    height: 8vh;
 }
 
 #cr-para {
     font-size: 13px;
-    margin-top: -26px;
+    margin-top: -16px;
     
 }
 }
