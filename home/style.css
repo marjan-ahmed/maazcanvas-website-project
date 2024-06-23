@@ -348,8 +348,9 @@ i {
         gap: 20px;
     }
     .frame-btn {
+        background-color: rgb(166, 119, 209);
         width: 80%;
-        margin-left: 18vw;
+        margin-left: 19vw;
     }
     .footer-li {
         margin-left: 15px;
