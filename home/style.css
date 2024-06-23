@@ -1,10 +1,17 @@
 * {
     box-sizing: border-box;
+
 }
 
-body {
+body{
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar{
+    width: 100%;
 }
 
 .nav-li {
@@ -278,7 +285,7 @@ i {
 
     .bar-icon {
         display: block;
-        margin-left: 60vw;
+        margin-left: 37vw;
     }
     #logo-img {
         width: 60px;
@@ -341,7 +348,7 @@ i {
     }
 
     .canva-heading{
-        margin-top: 125px;
+        margin-top: 135px;
     }
 
     .frames {
@@ -350,7 +357,7 @@ i {
     .frame-btn {
         background-color: rgb(166, 119, 209);
         width: 80%;
-        margin-left: 19vw;
+        margin-left: 20vw;
     }
     .footer-li {
         margin-left: 15px;
