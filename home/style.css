@@ -357,7 +357,6 @@ i {
     }
 
     .frames {
-
         gap: 20px;
     }
     .frame-btn {
@@ -368,11 +367,11 @@ i {
         margin-right: auto;
     }
     #frame,
-#title,
-#desc,
-#price {
+    #title,
+    #desc,
+    #price {
     font-family: jost, 'sans-serif';
-    padding: auto;
+    margin: 7px;
 }
     .footer-li {
         margin-left: 15px;
