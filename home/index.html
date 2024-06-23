@@ -14,6 +14,7 @@
         <img src="images/maaz_canvas_logo.png" alt="logo-img" id="logo-img">
         <div class="bar-icon" id="bar-icon">&#9776;</div>
         <ul class="nav-ul" id="nav-ul">
+            <div class="cancel-icon" id="cancel-icon">&times;</div>
             <a href="https://maazcanvas.netlify.app"></a><li class="nav-li">Home</li>
             <a href="#canvas-sec"><li class="nav-li">Canvas</li></a>
             <a href="file:///D:/HTMl%2C%20CSS%2C%20JS%20projects/maazcanvas-website-project/contact/contact.html"><li class="nav-li">Contact</li></a>
@@ -22,8 +23,12 @@
 
     <script>
 
-    document.getElementById('bar-icon').addEventListener('click', function() {
+document.getElementById('bar-icon').addEventListener('click', function() {
     document.getElementById('nav-ul').classList.toggle('show');
+});
+
+document.getElementById('cancel-icon').addEventListener('click', function() {
+    document.getElementById('nav-ul').classList.remove('show');
 });
 
 </script>
