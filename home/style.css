@@ -272,6 +272,9 @@ i {
 }
 
 @media screen and (max-width: 600px) {
+
+    body{font-family: jost;}
+
     .bar-icon {
         display: block;
         margin-left: 60vw;
@@ -334,8 +337,12 @@ i {
         width: 100%;
         margin: 0 auto;
         margin-left: 20vw;
-        margin-bottom: 30px;
     }
+
+    #canvas-sec{
+        margin-top: 60px;
+    }
+
     .frames {
         gap: 20px;
     }
@@ -349,6 +356,9 @@ i {
 }
 
 @media screen and (max-width: 768px) {
+
+    body{font-family: jost;}
+
     .navbar {
         height: 15vh;
         padding-right: 3vw;
