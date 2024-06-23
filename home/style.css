@@ -281,7 +281,12 @@ i {
 
 @media screen and (max-width: 600px) {
 
-    body{font-family: jost;}
+    body{
+        font-family: jost;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;}
 
     .bar-icon {
         display: block;
