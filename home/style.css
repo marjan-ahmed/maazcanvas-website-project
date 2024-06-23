@@ -199,7 +199,7 @@ ul {
     border-radius: 20px;
 }
 
-a .frame-btn{
+a{
     text-decoration: none;
 }
 
@@ -401,13 +401,13 @@ i {
     margin-left: 20px;
 }
 .container {
-    padding: 10px 0;
-    height: 47vh;
+    padding: 12px 0;
+    height: 46vh;
 }
 
 #footer-heading {
     font-size: 35px;
-    margin-top: -2vh;
+    margin-top: 2vh;
 }
 
 .footer-li {
@@ -438,6 +438,7 @@ i {
 .copyright{
     padding: 20px;
     margin-top: 29px;
+    margin-top: 2vh;
     height: 8vh;
 }
 
