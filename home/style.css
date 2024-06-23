@@ -357,13 +357,23 @@ i {
     }
 
     .frames {
+
         gap: 20px;
     }
     .frame-btn {
         background-color: rgb(166, 119, 209);
         width: 80%;
-        margin-left: 20vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
+    #frame,
+#title,
+#desc,
+#price {
+    font-family: jost, 'sans-serif';
+    padding: auto;
+}
     .footer-li {
         margin-left: 15px;
         font-size: 14px;
