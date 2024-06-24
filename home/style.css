@@ -38,12 +38,16 @@ ul {
 
 .navbar {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
     width: 100%;
     height: 17vh;
-    border-bottom: 1px solid black;
     background-color: rgb(199, 181, 240);
-    font-family: jost;
-    align-items: center;
+    font-family: jost, sans-serif;
     height: auto;
 }
 
@@ -204,13 +208,15 @@ a{
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 50vh;
     margin-top: 50px;
     background-color: rgb(172, 128, 212);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
 
 #footer-heading {
