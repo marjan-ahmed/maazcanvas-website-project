@@ -6,8 +6,22 @@
     <title>Contact Us</title>
     <link rel="icon" type="icon" href="image.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    
+    <div class="navbar">
+        <img src="images/maaz_canvas_logo.png" alt="logo-img" id="logo-img">
+        <div class="bar-icon" id="bar-icon">&#9776;</div>
+        <ul class="nav-ul" id="nav-ul">
+            <div class="cancel-icon" id="cancel-icon">&times;</div>
+            <a href="https://maazcanvas.netlify.app"></a><li class="nav-li">Home</li>
+            <a href="#canvas-sec"><li class="nav-li">Canvas</li></a>
+            <a href="https://maazcanvas-contact.netlify.app/"><li class="nav-li">Contact</li></a>
+        </ul>
+    </div>
+
+
     <div class="contact-container">
         <div class="contact-info">
             <h2>Contact Information</h2>
@@ -15,7 +29,7 @@
             <p><strong>Email:</strong> info@example.com</p>
             <p><strong>Phone:</strong> +1 234 567 890</p>
         </div>
-        <form class="contact-form" action="mailto: marjanahmed.dev@gmail.com" method="post">
+        <form class="contact-form" action="https://formspree.io/f/xeojjvzj" method="post">
             <h2>Send us a Message</h2>
             <div class="form-row">
                 <label for="name">Your Name</label>
@@ -29,8 +43,40 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
             </div>
-            <a href="mailto: marjanahmed.dev@gmail.com"><button type="submit">Send Message</button></a>
+            <button type="submit" id="send">Send Message</button>
+            <p id="success"></p>
         </form>
     </div>
+
+    <footer>
+        <div class="container">
+            <h1 id="footer-heading">Maaz Canvas</h1>
+            <ul>
+                
+                <a href="https://maazcanvas.netlify.app"><li style="margin-left: 10vw;" class="footer-li">Home</li></a>
+                <a href="https://maazcanvas-contact.netlify.app/"></a><li class="footer-li">Contact</li>
+                <a href="#canvas-sec"><li class="footer-li">Canvas</li></a>
+                <a href="#"><li class="footer-li">Terms & Conditions</li></a>
+            </ul>
+
+            <div class="social-media">
+                <a id="fb" href="https://www.facebook.com/maaz.canvas.1" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a id="insta" href="https://www.instagram.com/maazs_canvas/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a id="x" href="https://twitter.com/maaz_canvas" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+            <div class="footer-logo">
+                <img id="footer-logo" src="images/maaz_canvas_logo.png" alt="footer-logo">
+            </div>
+
+            <div class="copyright">
+                <p id="cr-para">© 2024 Maaz Canvas. All rights reserved. Coded & Developted with ❤ by Marjan Ahmed</p>
+
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
