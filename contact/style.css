@@ -147,18 +147,28 @@ ul {
 
 .contact-form button {
     width: 100%;
-    padding: 15px;
-    background-color: #0071a1;
+    padding: 13px;
+    background-color: #8362db;
     border: none;
     border-radius: 5px;
     color: white;
     font-size: 18px;
+    font-family: jost, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    word-spacing: 2px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .contact-form button:hover {
-    background-color: #005f87;
+    background-image: linear-gradient(90deg, rgb(102, 41, 160), rgb(41, 110, 175));
+    border-radius: 50px;
+    transition: 0.3s;  
+    font-weight: 700;
+}
+.contact-form button:not(:hover){
+    transition: 0.3s;
 }
 
 .container {
@@ -264,6 +274,7 @@ i {
     .bar-icon {
         display: block;
         margin-left: 37vw;
+        padding-top: 25px;
     }
 
     .cancel-icon {
@@ -308,6 +319,17 @@ i {
         text-decoration: none;
         font-family: jost;
         font-size: 18px;
+    }
+    .contact-container {
+        background: #fff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 18vh;
+        box-sizing: border-box;
     }
 }
 
