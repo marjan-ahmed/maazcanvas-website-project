@@ -188,12 +188,21 @@ ul {
 }
 
 .footer-li {
-    float: left;
-    list-style-type: none;
-    margin-left: 35px;
-    font-family: jost;
-    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    font-size: 20px;
+    text-decoration: none;
     color: black;
+    text-transform: none;
+}
+
+a .footer-li{
+    text-decoration: none;
 }
 
 .footer-li:hover {
@@ -211,6 +220,7 @@ ul {
     gap: 20px;
     max-width: 900px;
     font-size: 30px;
+    text-decoration: none;
 }
 
 #fb {
@@ -330,6 +340,20 @@ i {
         margin: auto;
         margin-top: 18vh;
         box-sizing: border-box;
+    }
+    .footer-li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        font-family: jost;
+        font-weight: 500;
+        color: black;
+    }
+    #footer-logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
